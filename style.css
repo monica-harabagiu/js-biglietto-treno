@@ -1,0 +1,17 @@
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+form {
+    gap: 30px;
+}
+
+form input {
+    width: 400px;
+    height: 40px;
+}
