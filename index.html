@@ -14,14 +14,22 @@
     <form action="" class="flex">
         <div class="flex-column">
             <label for="numero-km">Numero km</label>
-            <input type="text" name="numero-km" id="numero-km" placeholder="Inserisci quanti km percorrerai">
+            <input type="number" name="numero-km" id="numero-km" placeholder="Inserisci quanti km percorrerai">
         </div>
 
         <div class="flex-column">
             <label for="eta">Età</label>
-            <input type="text" name="eta" id="eta" placeholder="Inserisci la tua età">
+            <input type="number" name="eta" id="eta" placeholder="Inserisci la tua età">
+        </div>
+
+        <div>
+            <input type="button" id="calcola-prezzo" value="Calcola il prezzo" onclick="calcoloPrezzo()">
         </div>
     </form>
+
+    <div id="prezzo">
+
+    </div>
 
 
 
