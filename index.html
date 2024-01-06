@@ -6,30 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biglietto Treno</title>
 
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
-    <form action="" class="flex">
-        <div class="flex-column">
-            <label for="numero-km">Numero km</label>
-            <input type="number" name="numero-km" id="numero-km" placeholder="Inserisci quanti km percorrerai">
-        </div>
+    <div class="flex container">
+        <div class="card flex-column">
+            <form action="" class="flex-column">
+                <div class="flex-column">
+                    <label for="numero-km">Numero km</label>
+                    <input type="number" name="numero-km" id="numero-km" placeholder="Inserisci quanti km percorrerai">
+                </div>
 
-        <div class="flex-column">
-            <label for="eta">Età</label>
-            <input type="number" name="eta" id="eta" placeholder="Inserisci la tua età">
-        </div>
+                <div class="flex-column">
+                    <label for="eta">Età</label>
+                    <input type="number" name="eta" id="eta" placeholder="Inserisci la tua età">
+                </div>
 
-        <div>
-            <input type="button" id="calcola-prezzo" value="Calcola il prezzo" onclick="calcoloPrezzo()">
-        </div>
-    </form>
+                <div>
+                    <input type="button" id="calcola-prezzo" value="Calcola il prezzo" onclick="calcoloPrezzo()">
+                </div>
+            </form>
 
-    <div id="prezzo">
+            <div id="prezzo">
+
+            </div>
+
+        </div>
 
     </div>
+
 
 
 
